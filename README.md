@@ -25,12 +25,14 @@ clinic's data privacy and operational autonomy.
 ## Getting Started
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/hennasoftware/app.nutre.cc.git
    cd app.nutre.cc
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
@@ -39,6 +41,7 @@ clinic's data privacy and operational autonomy.
    Prepare your environment variables (`.env`) for services such as authentication, persistence, and email.
 
 4. **Run locally**
+
    ```bash
    npm run dev
    ```
