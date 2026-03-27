@@ -9,7 +9,7 @@ export default function App() {
   }, [t]);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-green-50 text-center">
+    <main className="bg-background flex min-h-screen flex-col items-center justify-center text-center">
       <div className="container mx-auto flex min-h-screen max-w-2xl flex-col justify-center px-4">
         <div className="flex flex-1 flex-col items-center justify-center gap-8">
           <h1 className="text-6xl font-semibold text-emerald-500">{t("message")}</h1>
